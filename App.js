@@ -3,10 +3,7 @@ var express = require("express");
 var app = express();
 var bodyParser = require('body-parser');
 
-// var cors = require('cors')
 
-// var app = express()
-// app.use(cors())
 
 app.use(bodyParser.json({ limit: '50mb', extended: true })); // soporte para bodies codificados en jsonsupport
 app.use(bodyParser.urlencoded({ limit: '50mb', extended: true })); // soporte para bodies codificados
