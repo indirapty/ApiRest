@@ -59,10 +59,26 @@ app.delete('/items/:id', function(req, res) {
     res.send('Delete ' + itemId);
 });
 
+/**
+ * Api para aplicación VLAN
+ */
+app.post('/login', function(req, res) {
+    res.setHeader('Content-Type', 'application/json');
+    var data = req.body;
+    console.log(data);
+    if (data.username != 'utp@utp.ac.pa') {
+        res.status(404);
+    } else {
+        res.status(200);
+    }
+    res.json(data);
+});
+
+
 // var server = app.listen(8080, function() {
 //     console.log('Server is running..');
 // });
 
 app.listen(8080, '0.0.0.0', function() {
-    console.log('Server is running..');
+    console.log('Server is running..1');
 });
