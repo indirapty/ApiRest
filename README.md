@@ -1,13 +1,9 @@
 # ApiRest
 Node server 
 
-# Se necesita 
+# Requerimientos técnicos 
 * Nodejs https://nodejs.org/en/download/
 * Instalador de paquetes npm https://www.npmjs.com/get-npm
-
-# Requerimientos técnicos
-Para que funcione correctamente:
-* Node.js - Mínimo V6 o superior
 
 # Instalación
 - Clonar repositorio `git clone https://github.com/indirapty/ApiRest.git`
