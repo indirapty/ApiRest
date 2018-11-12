@@ -9,13 +9,13 @@ Para que funcione correctamente:
 * Node.js - Mínimo V6 o superior
 
 # Instalación
-- Clonar repositori0 https://github.com/indirapty/ApiRest.git
+- Clonar repositorio https://github.com/indirapty/ApiRest.git
 
 # Iniciar Servidor
-- Ubicarse dentro del Proyecto /ApiRest
+- Ubicarse dentro del Proyecto ../ApiRest
 - Abril Terminal/cmd y levantar el archivo App.js
-node serve
-
+Ejecutar 
+> node App.js 
 
 
 
