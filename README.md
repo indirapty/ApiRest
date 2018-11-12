@@ -11,7 +11,7 @@ Node server
 # Iniciar servidor node
 - Abril Terminal/cmd en la ubicación del proyecto ../ApiRest 
 - Instalación de paquetes npm, ejecutar `npm install` 
-- Una vez instalado los paquetes necesario, ejecutrar `node App.js`  
+- Una vez instalado los paquetes necesarios, ejecutrar `node App.js`  
 `node App.js` 
 
 
