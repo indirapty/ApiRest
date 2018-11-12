@@ -13,9 +13,8 @@ Para que funcione correctamente:
 
 # Iniciar Servidor
 - Ubicarse dentro del Proyecto ../ApiRest
-- Abril Terminal/cmd y levantar el archivo App.js
-Ejecutar 
-> node App.js 
+- Abril Terminal/cmd y levantar el archivo App.js  
+`node App.js` 
 
 
 
